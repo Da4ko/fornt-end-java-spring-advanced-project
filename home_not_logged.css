@@ -34,6 +34,13 @@ body{
   .d-flex.justify-content-center.align-items-center.h-100 {
     padding: 25%;
   }
+  #mobile-button{
+    visibility: hidden;
+  }
+}
+@media (max-width: 991px) {
+  
+ 
 }
 
 .navbar .nav-link {

@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login to Tuzar Cars</title>
+    <title>Register to Tuzar Cars</title>
     <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="register.css">
 </head>
-<body class="body-login"> 
+<body>
     <header>
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
@@ -58,42 +58,58 @@
         </nav>
         <!-- Navbar -->
     </header>
-   
-        <main>
-            <div class = "darker-background-div">
-            <h1 class="text-center mt-2"><span class="badge badge-pill badge-dark">Login</span></h1>
-            <hr class="hr-3 w-25 bg-white"/>
-            <form class="mx-auto w-25 bg-blur"  action="" method="">
-                
-                <div  class="text-danger">Error messages:</div>
-                <div class="text-danger">Incorrect username or password!</div>
-        
-                <div class="form-group">
-                    <div class="label-holder text-white d-flex justify-content-center">
-                        <label for="username" class="h3 mb-2">Username</label>
-                    </div>
-                    <input type="text" class="form-control" id="username" name="username"/>
+    <main>
+        <div class="darker-background-div">
+        <h1 class="text-center mt-2"><span class="badge badge-pill badge-dark">Register</span></h1>
+        <hr class="hr-3 w-25 bg-white"/>
+    
+        <form class="mx-auto w-25 bg-blur rounded"  method="" action="">
+    
+            <div class="form-group">
+                <div class="label-holder textCol d-flex justify-content-center">
+                    <label for="username" class="h4 mb-2 text-white">Username</label>
                 </div>
-        
-                <div class="form-group">
-                    <div class="label-holder text-white d-flex justify-content-center">
-                        <label for="password" class="h3 mb-2">Password</label>
-                    </div>
-                    <input type="password" class="form-control" id="password" name="password"/>
-                </div>
-        
-                <div class="button-holder d-flex justify-content-center" id = "login-button">
-                    <button type="submit" class="btn btn-warning  mb-3">Login</button>
-                </div>
-                <br>
-                <div class="button-holder d-flex justify-content-center" id = "back-to-home">
-                  <button type="submit" class="btn btn-warning  mb-3">Back to home</button>
-              </div>
+    
+    
+                <input  type="text" class="form-control" id="username" name="username"/>
+                <small >Username error message</small>
             </div>
-            </form>
-        
+    
+            <div class="form-group">
+                <div class="label-holder text-white textCol d-flex justify-content-center">
+                    <label for="email" class="h4 mb-2">Email</label>
+                </div>
+                <input type="email" class="form-control" id="email" name="email"/>
+                <small >Email error message</small>
+            </div>
+    
+            <div class="form-group">
+                <div class="label-holder text-white textCol d-flex justify-content-center">
+                    <label for="password" class="h4 mb-2">Password</label>
+                </div>
+                <input  type="password" class="form-control" id="password" name="password"/>
+                <small >Password error message</small>
+            </div>
+    
+            <div class="form-group">
+                <div class="label-holder text-white textCol d-flex justify-content-center">
+                    <label for="confirmPassword" class="h4 mb-2">Confirm Password</label>
+                </div>
+                <input type="password" class="form-control" id="confirmPassword" name="confirmPassword"/>
+                <small  >Password error message</small>
+            </div>
+    
+            <div class="button-holder d-flex justify-content-center">
+                <button type="submit" class="btn btn-warning  mb-3" value="Register">Register</button>
+            </div>
+            <div class="button-holder d-flex justify-content-center">
+                <button type="submit" class="btn btn-warning  mb-3" id="back-to-home">Back to home</button>
+            </div>
+    
+        </form>
+    </div>
     </main>
-    <footer>
+     <footer>
         <h6 class="footer-text">All rights reserved™</h3>
     </footer>
 </body>
