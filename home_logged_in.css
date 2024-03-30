@@ -1,0 +1,124 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(https://car-images.bauersecure.com/wp-images/3109/best_performance_exec_090.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+   font-size: x-large;
+   
+}
+header{
+    font-size: x-large;
+    height: 10vh;
+}
+main{
+    height: 85vh;
+    color: white;
+}
+footer {
+     color: white;
+     margin-left: 45%;
+     height: 5vh;
+}
+
+#div1{
+    height: 37.5vh;
+    width: 37.5vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5));
+    float: left;
+    margin-left: 12.5vw;
+    border-right: solid 3px;
+    border-bottom: solid 3px;
+    border-color: wheat;
+}
+#div2{
+    height: 37.5vh;
+    width: 37.5vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5));
+    float: left;
+    border-left: solid 3px;
+    border-bottom: solid 3px;
+    border-color: wheat;
+    
+}
+#div3{
+    height: 37.5vh;
+    width: 37.5vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5));
+    float: left;
+    margin-left: 12.5vw;
+    border-right: solid 3px;
+    border-top: solid 3px;
+    border-color: wheat;
+
+}
+#div4{
+    height: 37.5vh;
+    width: 37.5vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5));
+    float: left;
+    border-left: solid 3px;
+    border-top: solid 3px;
+    border-color: wheat;
+}
+.welcome-text{
+    margin-left: 15%;
+}
+#add-porsche{
+    margin-top: 10%;
+    margin-left: 1%;
+}
+#add-mercedes{
+    margin-top: 5.5%;
+    margin-left: 1%;
+}
+#add-audi{
+   margin-top: 5.5%;
+   margin-left: 1%;
+}
+#add-bmw{
+   margin-top: 5.5%;
+   margin-left: 1%;
+}
+@media (min-width: 992px) {
+    #back-to-home{
+        visibility:hidden;
+    }
+    #info{
+        visibility: hidden;
+    }
+    
+   
+}
+@media (max-width: 992px) {
+   body{
+    font-size:x-small;
+   }
+   #div1{
+    height: 33vh;
+    width: 33vw;
+    margin-left: 15vw;
+}
+#div2{
+    height: 33vh;
+    width: 33vw;
+    
+    
+}
+#div3{
+    height: 33vh;
+    width: 33vw;
+    margin-left: 15vw;
+
+}
+#div4{
+    height: 33vh;
+    width: 33vw;
+}
+.mobile-menu{
+    margin-left: 3%;
+}
+
+}
+h2{
+    margin-left: 40%;
+}
