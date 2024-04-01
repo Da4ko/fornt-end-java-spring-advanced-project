@@ -37,7 +37,7 @@ body{
     padding: 25%;
   }
   #mobile-button{
-    visibility: hidden;
+    display: none;
   }
 }
 @media (max-width: 991px) {

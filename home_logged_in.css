@@ -82,10 +82,10 @@ footer {
 }
 @media (min-width: 992px) {
     #back-to-home{
-        visibility:hidden;
+        display: none;
     }
     #info{
-        visibility: hidden;
+        display: none;
     }
     
    

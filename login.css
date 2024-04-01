@@ -43,7 +43,7 @@ h1{
 }
 @media (min-width: 992px) {
     #back-to-home{
-        visibility:hidden;
+        display: none;
     }
    
 }
