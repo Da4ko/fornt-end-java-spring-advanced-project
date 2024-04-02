@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Audi</title>
-    <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="cars.css">
+    <title>Mercedes</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/cars.css">
     <style>
         /* Apply overflow to enable scrolling */
         
@@ -53,7 +53,10 @@
                   <a class="nav-link" aria-current="page" href="#">Logout | </a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link" aria-current="page" href="#">About Us </a>
+                  <a class="nav-link" aria-current="page" href="#">About Us | </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" aria-current="page" href="#">Bugs</a>
                 </li>
            
               </ul>
@@ -66,7 +69,7 @@
 
         <div class="brown-beige-theme">
             <div class = "row-menu">
-            <h2>Audi cars </h2>
+            <h2>Mercedes cars </h2>
             <button id = "back-to-home" type="submit" class="btn btn-primary  mb-3">Back to home</button>
            </div>
             <img class = "logo-img"src="" alt="">
@@ -76,17 +79,18 @@
                 <div class="user-cars">
                   <!-- Example car offers -->
                   <div class="car-card user-car">
-                    <p>Model: <label for="model">A8</label></p>
-                    <p>Horsepower: <label for="horsepower">680</label></p>
-                    <p>Release Date: <label for="release-date">20/3/2023</label></p>
-                    <p>Category: <label for="category">sedan</label></p>
-                    <p>Engine Type: <label for="engine-type">gasoline</label></p>
-                    <p>Transmission: <label for="transmission">manual</label></p>
-                    <p>Kilometers: <label for="kilometers">10000</label></p>
-                    <p>Description: <label for="description">A high-performance sports car with breathtaking acceleration.</label></p>
-                    <img class="car-image" src="https://hips.hearstapps.com/hmg-prod/images/2024-audi-a8-102-64b6b2b1ae524.jpg?crop=0.556xw:0.626xh;0.231xw,0.249xh&resize=768:*" alt="Audi A8">
-                    <button id="delete" type="submit" class="btn btn-danger  mb-3">Delete</button>  
-                </div>
+                    <p>Model: <label for="model">S350</label></p>
+                    
+                    <p>Horsepower: <label for="horsepower">348</label></p>
+                    <p>Release Date: <label for="release-date"> 12/09/2023</label></p>
+                    <p>Category: <label for="category"> Luxury limousine </label></p>
+                    <p>Engine Type: <label for="engine-type">Diesel</label></p>
+                    <p>Transmission: <label for="transmission">Automatic</label></p>
+                    <p>Kilometers: <label for="kilometers">100000</label></p>
+                    <p>Description: <label for="description">The car.</label></p>
+                    <img class="car-image" src="https://s.list.am/f/664/77669664.webp" alt="Porsche 911 Turbo S">
+                    <button  id="delete" type="submit" class="btn btn-danger  mb-3">Delete</button>
+                  </div>
                   <!-- Add more car cards here -->
                 </div>
               </div>
@@ -94,28 +98,30 @@
                 <h3>Other Users' Cars</h3>
                 <div class="other-user-cars">
                   <!-- Example car offers -->
-                  <div class="car-card other-user-car">
-                    <p>Model: <label for="model">A7</label></p>
-                    <p>Horsepower: <label for="horsepower">680</label></p>
-                    <p>Release Date: <label for="release-date">20/3/2023</label></p>
-                    <p>Category: <label for="category">sedan</label></p>
-                    <p>Engine Type: <label for="engine-type">gasoline</label></p>
-                    <p>Transmission: <label for="transmission">manual</label></p>
-                    <p>Kilometers: <label for="kilometers">10000</label></p>
-                    <p>Description: <label for="description">A high-performance sports car with breathtaking acceleration.</label></p>
-                    <img class="car-image" src="https://images.cars.com/cldstatic/wp-content/uploads/audi-rs-7-2024-front-three-quarter-oem.jpg?w=828" alt="Audi A7">
+                  <div class="car-card user-car">
+                    <p>Model: <label for="model">C 63 AMG</label></p>
+                    
+                    <p>Horsepower: <label for="horsepower">348</label></p>
+                    <p>Release Date: <label for="release-date"> 12/09/2023</label></p>
+                    <p>Category: <label for="category"> Luxury limousine </label></p>
+                    <p>Engine Type: <label for="engine-type">Diesel</label></p>
+                    <p>Transmission: <label for="transmission">Automatic</label></p>
+                    <p>Kilometers: <label for="kilometers">100000</label></p>
+                    <p>Description: <label for="description">The car.</label></p>
+                    <img class="car-image" src="https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/1-mercedes-amg-c-63-s-coupe-2019-rt-hero-front.jpg?itok=K8kI7vVd" alt="Porsche 911 Turbo S">
                   </div>
 
-                  <div class="car-card other-user-car">
-                    <p>Model: <label for="model">Q7</label></p>
-                    <p>Horsepower: <label for="horsepower">680</label></p>
-                    <p>Release Date: <label for="release-date">20/3/2023</label></p>
-                    <p>Category: <label for="category">sedan</label></p>
-                    <p>Engine Type: <label for="engine-type">gasoline</label></p>
-                    <p>Transmission: <label for="transmission">manual</label></p>
-                    <p>Kilometers: <label for="kilometers">10000</label></p>
-                    <p>Description: <label for="description">A high-performance sports car with breathtaking acceleration.</label></p>
-                    <img class="car-image" src="https://hips.hearstapps.com/hmg-prod/images/2024-audi-q7-102-6495edad98657.jpg?crop=0.583xw:0.436xh;0.333xw,0.439xh&resize=1200:*" alt="Audi Q7">
+                  <div class="car-card user-car">
+                    <p>Model: <label for="model">Maybach</label></p>
+                    
+                    <p>Horsepower: <label for="horsepower">348</label></p>
+                    <p>Release Date: <label for="release-date"> 12/09/2023</label></p>
+                    <p>Category: <label for="category"> Luxury limousine </label></p>
+                    <p>Engine Type: <label for="engine-type">Diesel</label></p>
+                    <p>Transmission: <label for="transmission">Automatic</label></p>
+                    <p>Kilometers: <label for="kilometers">100000</label></p>
+                    <p>Description: <label for="description">The car.</label></p>
+                    <img class="car-image" src="https://i.ytimg.com/vi/K1N-3NkFmkk/sddefault.jpg" alt="Porsche 911 Turbo S">
                   </div>
                   <!-- Add more car cards here -->
                 </div>
