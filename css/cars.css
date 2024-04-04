@@ -64,7 +64,7 @@ footer {
 
   /* Background color for other users' cars */
   .other-user-car {
-    background-color: #FAF0E6; /* Linen */
+    background-color: #cccac8; /* Linen */
   }
 
   /* Car image styling */
@@ -78,6 +78,10 @@ footer {
     #back-to-home{
         display: none;
     }
+    #add-car{
+      margin-bottom: -3% !important;
+    }
+    
  }
 
  .user-cars,

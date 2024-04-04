@@ -22,7 +22,7 @@ footer {
 }
 
 #div1{
-    height: 37.5vh;
+    height: 32vh;
     width: 37.5vw;
     background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5));
     float: left;
@@ -32,7 +32,7 @@ footer {
     border-color: wheat;
 }
 #div2{
-    height: 37.5vh;
+    height: 32vh;
     width: 37.5vw;
     background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5));
     float: left;
@@ -42,7 +42,7 @@ footer {
     
 }
 #div3{
-    height: 37.5vh;
+    height: 32vh;
     width: 37.5vw;
     background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5));
     float: left;
@@ -53,7 +53,7 @@ footer {
 
 }
 #div4{
-    height: 37.5vh;
+    height: 32vh;
     width: 37.5vw;
     background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5));
     float: left;
@@ -87,7 +87,18 @@ footer {
     #info{
         display: none;
     }
-    
+    #add-porsche{
+        display: none;
+    }
+    #add-mercedes{
+        display: none;
+    }
+    #add-audi{
+        display: none;
+    }
+    #add-bmw{
+        display: none;
+    }
    
 }
 @media (max-width: 992px) {
@@ -95,24 +106,24 @@ footer {
     font-size:x-small;
    }
    #div1{
-    height: 33vh;
+    height: 25vh;
     width: 33vw;
     margin-left: 15vw;
 }
 #div2{
-    height: 33vh;
+    height: 25vh;
     width: 33vw;
     
     
 }
 #div3{
-    height: 33vh;
+    height: 25vh;
     width: 33vw;
     margin-left: 15vw;
 
 }
 #div4{
-    height: 33vh;
+    height: 25vh;
     width: 33vw;
 }
 .mobile-menu{
@@ -122,4 +133,7 @@ footer {
 }
 h2{
     margin-left: 40%;
+}
+.change-name-div{
+    margin-left: 15vw;
 }
