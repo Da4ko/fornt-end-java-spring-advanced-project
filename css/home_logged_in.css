@@ -84,7 +84,19 @@ footer {
     #back-to-home{
         display: none;
     }
-    #info{
+    #info1{
+        display: none;
+    }
+    #info2{
+        display: none;
+    }
+    #info3{
+        display: none;
+    }
+    #info4{
+        display: none;
+    }
+    #info5{
         display: none;
     }
     #add-porsche{

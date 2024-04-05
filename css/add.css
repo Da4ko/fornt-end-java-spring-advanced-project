@@ -47,7 +47,31 @@ hr{
     
 }
 
-#label-text{
+#label-text1{
+    font-size:large;
+}
+#label-text2{
+    font-size:large;
+}
+#label-text3{
+    font-size:large;
+}
+#label-text4{
+    font-size:large;
+}
+#label-text5{
+    font-size:large;
+}
+#label-text6{
+    font-size:large;
+}
+#label-text7{
+    font-size:large;
+}
+#label-text8{
+    font-size:large;
+}
+#label-text9{
     font-size:large;
 }
 small{
@@ -70,8 +94,33 @@ input{
    
      #sbm-btn-btn{
         margin-right:40px;
+        margin-left: 100px;
     }
-    #label-text{
+    #label-text1{
+        font-size:small;
+    }
+    #label-text2{
+        font-size:small;
+    }
+    #label-text3{
+        font-size:small;
+    }
+    #label-text4{
+        font-size:small;
+    }
+    #label-text5{
+        font-size:small;
+    }
+    #label-text6{
+        font-size:small;
+    }
+    #label-text7{
+        font-size:small;
+    }
+    #label-text8{
+        font-size:small;
+    }
+    #label-text9{
         font-size:small;
     }
     small{
