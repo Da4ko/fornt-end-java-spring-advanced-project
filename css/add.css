@@ -4,7 +4,7 @@ body{
     background-size: cover;
     background-position: center center;
    font-size: x-large;
-   height: 100vh;
+   height: 120vh;
    width: 100vw;
 }
 header{
@@ -16,7 +16,7 @@ main{
     color: white;
 }
 footer {
-     margin-top: 30px;
+     margin-top: 180px;
      color: white;
      margin-left: 45%;
      height: 3vh;
